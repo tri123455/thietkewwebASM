@@ -1,0 +1,152 @@
+#layout{
+    max-width: 1000px;
+    margin: 0  auto;
+    
+
+}
+.logo{
+    background-color: #fff;
+    text-align: center;
+}
+
+nav{
+    
+    background-color: rgb(163, 12, 12);
+    height: 40px;
+    text-align:center;
+    
+}
+nav a{
+    
+    line-height:40px;
+    text-align: center;
+    padding:30px;
+    color:rgb(237, 225, 225);
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h3{
+    color:darkslateblue;
+    font-weight: bold;
+}
+/*phần nội dung*/
+.images_box img {
+    height: 250px;
+    object-fit: fill;
+    object-position: center;
+  }
+  .box {
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .header_box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .content_box span {
+    font-weight: 500;
+    line-height: 1.5rem;
+    font-size: 19px;
+  }
+  
+  .footer_box {
+    margin-top: 10px;
+  }
+  
+  .footer_box span {
+    font-size: 19px;
+  }
+  
+  .footer_box img {
+    max-width: 10px;
+  }
+  .header_wrapper h3:hover {
+    color: red;
+  }
+  
+  .grid_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .grid_wrapper .images_box img {
+    max-width: 250px;
+  }
+  
+  .text_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .title span {
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .title span:hover {
+    color: blue;
+  }
+  
+  .subtitle span {
+    color: red;
+    font-weight: 700;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .subtitle span:hover {
+    text-decoration: underline;
+  }
+  
+  .box1 {
+    border: 1px solid gray;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 13, 0);
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px;
+    color: #fff;
+  }  
+.grid_wrapper{
+  flex-wrap: wrap;
+  display: flex !important; 
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.menu{
+  flex-wrap: wrap;
+}
+ 
+
+@media (max-width: 575.98px) {  }
+
+@media (max-width: 767.98px) {  }
+
+@media (max-width: 991.98px) {  }
+
+@media (max-width: 1199.98px) {  }
+
+@media (max-width: 1399.98px) { }
